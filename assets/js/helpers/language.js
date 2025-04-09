@@ -15,7 +15,7 @@ export function handleLanguageToggle() {
 					window.location.href = 'assets/html/index-en.html';
 				} else {
 					localStorage.setItem('language', 'es'); // Guardar preferencia
-					window.location.href = '/portafolio/index.html';
+					window.location.href = '/index.html';
 				}
 			}, 300);
 		});
