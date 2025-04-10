@@ -22,7 +22,7 @@ function sendEmail() {
 		};
 
 		if (params.name && params.email && params.subject && params.message) {
-			emailjs.send('service_7klm8rw', 'template_4k15aoq', params).then(
+			emailjs.send('service_7klm8rw', 'template_smuoqxf', params).then(
 				(response) => {
 					console.log('SUCCESS!', response.status, response.text);
 					openModal();
